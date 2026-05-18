@@ -1,0 +1,6 @@
+target/
+# 字体文件体积大，需开发者手动放置，不提交到版本库
+src/main/resources/fonts/*.ttf
+src/main/resources/fonts/*.otf
+# 生产模板文件不提交到版本库（含客户信息）
+src/main/resources/templates/*.pdf

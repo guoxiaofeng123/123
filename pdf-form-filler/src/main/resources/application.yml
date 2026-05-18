@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+pdf:
+  template:
+    labor-contract: /templates/labor_contract.pdf
+  font:
+    chinese: /fonts/NotoSansSC-Regular.ttf
+
+logging:
+  level:
+    com.yourco.pdf: DEBUG
